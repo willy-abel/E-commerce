@@ -1,8 +1,14 @@
 /******** Projet de e-commerce************/
+
+@import url('https://fonts.googleapis.com/css2? family= Great+Vibes & family= Poppins & display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family : 'Poppins', cursive ;
 }
 
 .navbar{
@@ -112,7 +118,11 @@ p{
     flex-basis: 25%;
     min-width: 200px;
     padding: 15px;
+    transition: transform 0.5s;
 }
 .col-4 img{
     width: 100%;
+}
+.col-4:hover{
+    transform: translateY(-10px);
 }
